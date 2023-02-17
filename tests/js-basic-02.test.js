@@ -40,6 +40,8 @@ TODO: the string literal 'JavaScript is Awesome!'.
 
 // * Add your code BELOW here
 
+let myClass = 'Javascript is Awesome!';
+
 // * Don't mess with the test code below here!
 
 test('myClass', () => {
@@ -60,6 +62,8 @@ TODO: Remember to use single-quotes for the empty string.
 */
 
 // * Add your code BELOW here
+
+let emptyString = '';
 
 // * Don't mess with the test code below here!
 
