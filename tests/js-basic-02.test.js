@@ -36,11 +36,12 @@
 TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to create a variable called myClass and assign it to
 TODO: the string literal 'JavaScript is Awesome!'.
+
 */
 
 // * Add your code BELOW here
 
-let myClass = 'Javascript is Awesome!';
+let myClass = 'JavaScript is Awesome!';
 
 // * Don't mess with the test code below here!
 
@@ -89,6 +90,8 @@ TODO: string with exactly 6 alphanumeric characters in it.
 
 // * Add your code BELOW here
 
+let petName = 'string';
+
 // * Don't mess with the test code below here!
 
 test('petName', () => {
@@ -110,6 +113,8 @@ TODO: assign it any word that starts with a capital A.
 */
 
 // * Add your code BELOW here
+
+const firstLetterIsA = 'Apple';
 
 // * Don't mess with the test code below here!
 
@@ -133,9 +138,12 @@ TODO: This skill requires 1 line of code.
 TODO: Use the let keyword to create a variable called counting and assign it to
 TODO: this 7-character string literal 'one two' WHERE the character between words one
 TODO: and two is not a space but an escaped horizontal tab character.
+
 */
 
 // * Add your code BELOW here
+
+let counting = 'one\ttwo';
 
 // * Don't mess with the test code below here!
 
@@ -160,6 +168,8 @@ TODO: assigned variable petName (from Skill 3).
 */
 
 // * Add your code BELOW here
+
+let mySentence = `Hello, ${petName}`;
 
 // * Don't mess with the test code below here!
 
@@ -189,6 +199,8 @@ TODO: for a JavaScript expression inside a template literal.
 
 // * Add your code BELOW here
 
+let helloPet = `Hello, ${petName}`;
+
 // * Don't mess with the test code below here!
 
 test('helloPet', () => {
@@ -217,6 +229,9 @@ TODO: In line 2: Reassign thisMonth to the string literal 'September'.
 */
 
 // * Add your code BELOW here
+
+let thisMonth = 'I dunno!';
+thisMonth = 'September';
 
 // * Don't mess with the test code below here!
 
@@ -252,6 +267,11 @@ TODO: In the below area, you will practice making template literals
 
 // * Add your code BELOW here
 
+let year = 2001;
+let firstName = 'John';
+let lastName = 'Smith';
+let message = `Hi, my name is ${firstName} ${lastName} and I was born in ${year}`;
+
 // * Don't mess with the test code below here!
 
 test('creating a message', () => {
@@ -271,6 +291,10 @@ test('creating a message', () => {
 
 // * Add your code BELOW here
 
+let tax = 8.25;
+let price = 100;
+let total = `Your total including tax is $${price + tax}`;
+
 // * Don't mess with the test code below here!
 
 test('creating a total', () => {
@@ -284,6 +308,10 @@ test('creating a total', () => {
 // TODO: such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
 
 // * Add your code BELOW here
+
+const heading1 = 'JavaScript';
+const heading2 = 'HTML';
+const html = `<h1>${heading1}</h1><h2>${heading2}</h2><p>This is a paragraph</p>`;
 
 // * Don't mess with the test code below here!
 
